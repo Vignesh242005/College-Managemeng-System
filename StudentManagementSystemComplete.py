@@ -1,3 +1,12 @@
+import time
+import pymysql
+import pandas
+from tkinter import *
+from tkinter import messagebox, filedialog
+
+# Global variables
+con = None
+mycursor = None
 def addstudent():
     def submitadd():
         id = idval.get()
