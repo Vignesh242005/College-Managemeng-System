@@ -417,7 +417,7 @@ def Connectdb():
         global con,mycursor
         host = 'localhost'
         user = 'root'
-        password = 'Sranjani096#'
+        password = 'typeyourpassword'
         try:
             con = pymysql.connect(host=host,user=user,password=password)
             mycursor = con.cursor()
